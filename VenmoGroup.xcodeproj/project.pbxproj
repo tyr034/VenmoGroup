@@ -24,6 +24,18 @@
 		4F9328AD1996C06C00472E8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9328861996C06C00472E8C /* UIKit.framework */; };
 		4F9328B51996C06D00472E8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F9328B31996C06C00472E8C /* InfoPlist.strings */; };
 		4F9328B71996C06D00472E8C /* VenmoGroupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9328B61996C06D00472E8C /* VenmoGroupTests.m */; };
+		4F9328C11996C23000472E8C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9328C01996C23000472E8C /* AudioToolbox.framework */; };
+		4F9328C31996C23A00472E8C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9328C21996C23A00472E8C /* CFNetwork.framework */; };
+		4F9328C51996C24B00472E8C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9328C41996C24B00472E8C /* CoreLocation.framework */; };
+		4F9328C71996C26100472E8C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9328C61996C26100472E8C /* libz.dylib */; };
+		4F9328C91996C26A00472E8C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9328C81996C26A00472E8C /* MobileCoreServices.framework */; };
+		4F9328CB1996C27600472E8C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9328CA1996C27600472E8C /* QuartzCore.framework */; };
+		4F9328CD1996C28000472E8C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9328CC1996C28000472E8C /* Security.framework */; };
+		4F9328CF1996C28A00472E8C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9328CE1996C28A00472E8C /* StoreKit.framework */; };
+		4F9328D11996C29C00472E8C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9328D01996C29C00472E8C /* SystemConfiguration.framework */; };
+		4F9329111996C8F700472E8C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9329101996C8F700472E8C /* Parse.framework */; };
+		4F9329121996C8F700472E8C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9329101996C8F700472E8C /* Parse.framework */; };
+		4F9329171996D2FC00472E8C /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9329161996D2FC00472E8C /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +73,17 @@
 		4F9328B21996C06C00472E8C /* VenmoGroupTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VenmoGroupTests-Info.plist"; sourceTree = "<group>"; };
 		4F9328B41996C06C00472E8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4F9328B61996C06D00472E8C /* VenmoGroupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VenmoGroupTests.m; sourceTree = "<group>"; };
+		4F9328C01996C23000472E8C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4F9328C21996C23A00472E8C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4F9328C41996C24B00472E8C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4F9328C61996C26100472E8C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4F9328C81996C26A00472E8C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4F9328CA1996C27600472E8C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4F9328CC1996C28000472E8C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4F9328CE1996C28A00472E8C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4F9328D01996C29C00472E8C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4F9329101996C8F700472E8C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		4F9329161996D2FC00472E8C /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +91,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9328D11996C29C00472E8C /* SystemConfiguration.framework in Frameworks */,
+				4F9328CF1996C28A00472E8C /* StoreKit.framework in Frameworks */,
+				4F9328CD1996C28000472E8C /* Security.framework in Frameworks */,
+				4F9328CB1996C27600472E8C /* QuartzCore.framework in Frameworks */,
+				4F9328C91996C26A00472E8C /* MobileCoreServices.framework in Frameworks */,
+				4F9328C71996C26100472E8C /* libz.dylib in Frameworks */,
+				4F9329111996C8F700472E8C /* Parse.framework in Frameworks */,
+				4F9328C51996C24B00472E8C /* CoreLocation.framework in Frameworks */,
+				4F9328C31996C23A00472E8C /* CFNetwork.framework in Frameworks */,
+				4F9328C11996C23000472E8C /* AudioToolbox.framework in Frameworks */,
 				4F9328851996C06C00472E8C /* CoreGraphics.framework in Frameworks */,
 				4F9328871996C06C00472E8C /* UIKit.framework in Frameworks */,
 				4F9328831996C06C00472E8C /* Foundation.framework in Frameworks */,
+				4F9329171996D2FC00472E8C /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +114,7 @@
 			files = (
 				4F9328AB1996C06C00472E8C /* XCTest.framework in Frameworks */,
 				4F9328AD1996C06C00472E8C /* UIKit.framework in Frameworks */,
+				4F9329121996C8F700472E8C /* Parse.framework in Frameworks */,
 				4F9328AC1996C06C00472E8C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,6 +144,17 @@
 		4F9328811996C06C00472E8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4F9329161996D2FC00472E8C /* FacebookSDK.framework */,
+				4F9328D01996C29C00472E8C /* SystemConfiguration.framework */,
+				4F9328CE1996C28A00472E8C /* StoreKit.framework */,
+				4F9328CC1996C28000472E8C /* Security.framework */,
+				4F9328CA1996C27600472E8C /* QuartzCore.framework */,
+				4F9328C81996C26A00472E8C /* MobileCoreServices.framework */,
+				4F9328C61996C26100472E8C /* libz.dylib */,
+				4F9329101996C8F700472E8C /* Parse.framework */,
+				4F9328C41996C24B00472E8C /* CoreLocation.framework */,
+				4F9328C21996C23A00472E8C /* CFNetwork.framework */,
+				4F9328C01996C23000472E8C /* AudioToolbox.framework */,
 				4F9328821996C06C00472E8C /* Foundation.framework */,
 				4F9328841996C06C00472E8C /* CoreGraphics.framework */,
 				4F9328861996C06C00472E8C /* UIKit.framework */,
@@ -402,9 +448,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/fffionaa/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VenmoGroup/VenmoGroup-Prefix.pch";
 				INFOPLIST_FILE = "VenmoGroup/VenmoGroup-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/fffionaa/Desktop/Parse.framework,
+					/Users/fffionaa/Desktop/Parse.framework/Versions/A,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -415,9 +471,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/fffionaa/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VenmoGroup/VenmoGroup-Prefix.pch";
 				INFOPLIST_FILE = "VenmoGroup/VenmoGroup-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/fffionaa/Desktop/Parse.framework,
+					/Users/fffionaa/Desktop/Parse.framework/Versions/A,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -431,6 +497,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VenmoGroup/VenmoGroup-Prefix.pch";
@@ -439,6 +506,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "VenmoGroupTests/VenmoGroupTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/fffionaa/Desktop/Parse.framework,
+					/Users/fffionaa/Desktop/Parse.framework/Versions/A,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -453,10 +525,16 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VenmoGroup/VenmoGroup-Prefix.pch";
 				INFOPLIST_FILE = "VenmoGroupTests/VenmoGroupTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/fffionaa/Desktop/Parse.framework,
+					/Users/fffionaa/Desktop/Parse.framework/Versions/A,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

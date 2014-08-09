@@ -12,6 +12,7 @@
 
 #import "DataViewController.h"
 
+
 @interface RootViewController ()
 @property (readonly, strong, nonatomic) ModelController *modelController;
 @end
@@ -25,6 +26,13 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     // Configure the page view controller and add it as a child view controller.
+    
+    // test for Parse Cloud
+    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+    testObject[@"foo"] = @"bar";
+    [testObject saveInBackground];
+
+    
     self.pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStylePageCurl navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
     self.pageViewController.delegate = self;
 
