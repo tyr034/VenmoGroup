@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F9328831996C06C00472E8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9328821996C06C00472E8C /* Foundation.framework */; };
+		4F9328851996C06C00472E8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9328841996C06C00472E8C /* CoreGraphics.framework */; };
+		4F9328871996C06C00472E8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9328861996C06C00472E8C /* UIKit.framework */; };
+		4F93288D1996C06C00472E8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F93288B1996C06C00472E8C /* InfoPlist.strings */; };
+		4F93288F1996C06C00472E8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F93288E1996C06C00472E8C /* main.m */; };
+		4F9328931996C06C00472E8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9328921996C06C00472E8C /* AppDelegate.m */; };
+		4F9328961996C06C00472E8C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9328951996C06C00472E8C /* RootViewController.m */; };
+		4F9328991996C06C00472E8C /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9328981996C06C00472E8C /* DataViewController.m */; };
+		4F93289C1996C06C00472E8C /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F93289B1996C06C00472E8C /* ModelController.m */; };
+		4F93289F1996C06C00472E8C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F93289D1996C06C00472E8C /* Main_iPhone.storyboard */; };
+		4F9328A21996C06C00472E8C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9328A01996C06C00472E8C /* Main_iPad.storyboard */; };
+		4F9328A41996C06C00472E8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9328A31996C06C00472E8C /* Images.xcassets */; };
+		4F9328AB1996C06C00472E8C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9328AA1996C06C00472E8C /* XCTest.framework */; };
+		4F9328AC1996C06C00472E8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9328821996C06C00472E8C /* Foundation.framework */; };
+		4F9328AD1996C06C00472E8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9328861996C06C00472E8C /* UIKit.framework */; };
+		4F9328B51996C06D00472E8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F9328B31996C06C00472E8C /* InfoPlist.strings */; };
+		4F9328B71996C06D00472E8C /* VenmoGroupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9328B61996C06D00472E8C /* VenmoGroupTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F9328AE1996C06C00472E8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F9328771996C06C00472E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F93287E1996C06C00472E8C;
+			remoteInfo = VenmoGroup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F93287F1996C06C00472E8C /* VenmoGroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenmoGroup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9328821996C06C00472E8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F9328841996C06C00472E8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4F9328861996C06C00472E8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4F93288A1996C06C00472E8C /* VenmoGroup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VenmoGroup-Info.plist"; sourceTree = "<group>"; };
+		4F93288C1996C06C00472E8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F93288E1996C06C00472E8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F9328901996C06C00472E8C /* VenmoGroup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VenmoGroup-Prefix.pch"; sourceTree = "<group>"; };
+		4F9328911996C06C00472E8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F9328921996C06C00472E8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F9328941996C06C00472E8C /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		4F9328951996C06C00472E8C /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		4F9328971996C06C00472E8C /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		4F9328981996C06C00472E8C /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		4F93289A1996C06C00472E8C /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		4F93289B1996C06C00472E8C /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		4F93289E1996C06C00472E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4F9328A11996C06C00472E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		4F9328A31996C06C00472E8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4F9328A91996C06C00472E8C /* VenmoGroupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VenmoGroupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9328AA1996C06C00472E8C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4F9328B21996C06C00472E8C /* VenmoGroupTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VenmoGroupTests-Info.plist"; sourceTree = "<group>"; };
+		4F9328B41996C06C00472E8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F9328B61996C06D00472E8C /* VenmoGroupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VenmoGroupTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F93287C1996C06C00472E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9328851996C06C00472E8C /* CoreGraphics.framework in Frameworks */,
+				4F9328871996C06C00472E8C /* UIKit.framework in Frameworks */,
+				4F9328831996C06C00472E8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9328A61996C06C00472E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9328AB1996C06C00472E8C /* XCTest.framework in Frameworks */,
+				4F9328AD1996C06C00472E8C /* UIKit.framework in Frameworks */,
+				4F9328AC1996C06C00472E8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F9328761996C06C00472E8C = {
+			isa = PBXGroup;
+			children = (
+				4F9328881996C06C00472E8C /* VenmoGroup */,
+				4F9328B01996C06C00472E8C /* VenmoGroupTests */,
+				4F9328811996C06C00472E8C /* Frameworks */,
+				4F9328801996C06C00472E8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F9328801996C06C00472E8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F93287F1996C06C00472E8C /* VenmoGroup.app */,
+				4F9328A91996C06C00472E8C /* VenmoGroupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F9328811996C06C00472E8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F9328821996C06C00472E8C /* Foundation.framework */,
+				4F9328841996C06C00472E8C /* CoreGraphics.framework */,
+				4F9328861996C06C00472E8C /* UIKit.framework */,
+				4F9328AA1996C06C00472E8C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F9328881996C06C00472E8C /* VenmoGroup */ = {
+			isa = PBXGroup;
+			children = (
+				4F9328911996C06C00472E8C /* AppDelegate.h */,
+				4F9328921996C06C00472E8C /* AppDelegate.m */,
+				4F9328941996C06C00472E8C /* RootViewController.h */,
+				4F9328951996C06C00472E8C /* RootViewController.m */,
+				4F9328971996C06C00472E8C /* DataViewController.h */,
+				4F9328981996C06C00472E8C /* DataViewController.m */,
+				4F93289A1996C06C00472E8C /* ModelController.h */,
+				4F93289B1996C06C00472E8C /* ModelController.m */,
+				4F93289D1996C06C00472E8C /* Main_iPhone.storyboard */,
+				4F9328A01996C06C00472E8C /* Main_iPad.storyboard */,
+				4F9328A31996C06C00472E8C /* Images.xcassets */,
+				4F9328891996C06C00472E8C /* Supporting Files */,
+			);
+			path = VenmoGroup;
+			sourceTree = "<group>";
+		};
+		4F9328891996C06C00472E8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F93288A1996C06C00472E8C /* VenmoGroup-Info.plist */,
+				4F93288B1996C06C00472E8C /* InfoPlist.strings */,
+				4F93288E1996C06C00472E8C /* main.m */,
+				4F9328901996C06C00472E8C /* VenmoGroup-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F9328B01996C06C00472E8C /* VenmoGroupTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F9328B61996C06D00472E8C /* VenmoGroupTests.m */,
+				4F9328B11996C06C00472E8C /* Supporting Files */,
+			);
+			path = VenmoGroupTests;
+			sourceTree = "<group>";
+		};
+		4F9328B11996C06C00472E8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F9328B21996C06C00472E8C /* VenmoGroupTests-Info.plist */,
+				4F9328B31996C06C00472E8C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F93287E1996C06C00472E8C /* VenmoGroup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9328BA1996C06D00472E8C /* Build configuration list for PBXNativeTarget "VenmoGroup" */;
+			buildPhases = (
+				4F93287B1996C06C00472E8C /* Sources */,
+				4F93287C1996C06C00472E8C /* Frameworks */,
+				4F93287D1996C06C00472E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VenmoGroup;
+			productName = VenmoGroup;
+			productReference = 4F93287F1996C06C00472E8C /* VenmoGroup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F9328A81996C06C00472E8C /* VenmoGroupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9328BD1996C06D00472E8C /* Build configuration list for PBXNativeTarget "VenmoGroupTests" */;
+			buildPhases = (
+				4F9328A51996C06C00472E8C /* Sources */,
+				4F9328A61996C06C00472E8C /* Frameworks */,
+				4F9328A71996C06C00472E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F9328AF1996C06C00472E8C /* PBXTargetDependency */,
+			);
+			name = VenmoGroupTests;
+			productName = VenmoGroupTests;
+			productReference = 4F9328A91996C06C00472E8C /* VenmoGroupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F9328771996C06C00472E8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = myOwn;
+				TargetAttributes = {
+					4F9328A81996C06C00472E8C = {
+						TestTargetID = 4F93287E1996C06C00472E8C;
+					};
+				};
+			};
+			buildConfigurationList = 4F93287A1996C06C00472E8C /* Build configuration list for PBXProject "VenmoGroup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F9328761996C06C00472E8C;
+			productRefGroup = 4F9328801996C06C00472E8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F93287E1996C06C00472E8C /* VenmoGroup */,
+				4F9328A81996C06C00472E8C /* VenmoGroupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F93287D1996C06C00472E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9328A21996C06C00472E8C /* Main_iPad.storyboard in Resources */,
+				4F9328A41996C06C00472E8C /* Images.xcassets in Resources */,
+				4F93289F1996C06C00472E8C /* Main_iPhone.storyboard in Resources */,
+				4F93288D1996C06C00472E8C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9328A71996C06C00472E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9328B51996C06D00472E8C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F93287B1996C06C00472E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9328991996C06C00472E8C /* DataViewController.m in Sources */,
+				4F9328931996C06C00472E8C /* AppDelegate.m in Sources */,
+				4F93289C1996C06C00472E8C /* ModelController.m in Sources */,
+				4F93288F1996C06C00472E8C /* main.m in Sources */,
+				4F9328961996C06C00472E8C /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9328A51996C06C00472E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9328B71996C06D00472E8C /* VenmoGroupTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F9328AF1996C06C00472E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F93287E1996C06C00472E8C /* VenmoGroup */;
+			targetProxy = 4F9328AE1996C06C00472E8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F93288B1996C06C00472E8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F93288C1996C06C00472E8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4F93289D1996C06C00472E8C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F93289E1996C06C00472E8C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4F9328A01996C06C00472E8C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F9328A11996C06C00472E8C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4F9328B31996C06C00472E8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F9328B41996C06C00472E8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F9328B81996C06D00472E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F9328B91996C06D00472E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F9328BB1996C06D00472E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VenmoGroup/VenmoGroup-Prefix.pch";
+				INFOPLIST_FILE = "VenmoGroup/VenmoGroup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4F9328BC1996C06D00472E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VenmoGroup/VenmoGroup-Prefix.pch";
+				INFOPLIST_FILE = "VenmoGroup/VenmoGroup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4F9328BE1996C06D00472E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VenmoGroup.app/VenmoGroup";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VenmoGroup/VenmoGroup-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VenmoGroupTests/VenmoGroupTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4F9328BF1996C06D00472E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VenmoGroup.app/VenmoGroup";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VenmoGroup/VenmoGroup-Prefix.pch";
+				INFOPLIST_FILE = "VenmoGroupTests/VenmoGroupTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F93287A1996C06C00472E8C /* Build configuration list for PBXProject "VenmoGroup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9328B81996C06D00472E8C /* Debug */,
+				4F9328B91996C06D00472E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F9328BA1996C06D00472E8C /* Build configuration list for PBXNativeTarget "VenmoGroup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9328BB1996C06D00472E8C /* Debug */,
+				4F9328BC1996C06D00472E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F9328BD1996C06D00472E8C /* Build configuration list for PBXNativeTarget "VenmoGroupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9328BE1996C06D00472E8C /* Debug */,
+				4F9328BF1996C06D00472E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F9328771996C06C00472E8C /* Project object */;
+}
